@@ -1,1 +1,1 @@
-# ishen-quiz
+# JavaScript skills
