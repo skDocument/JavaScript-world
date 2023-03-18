@@ -1,0 +1,81 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    background-color: tomato;
+    color: #0008;
+}
+
+form
+{
+    margin: 40px auto;
+    min-height: 370px;
+    border: 1px solid saddlebrown;
+    padding: 5px;
+    width: 450px;
+    background: rgba(255, 255, 255, .7);
+    border: none;
+    border-radius: 1.5rem;
+}
+
+form h2
+{
+    padding: 10px;
+}
+/* .conta-input
+{
+    
+} */
+.conta-input .items
+{
+    display: block;
+}
+
+.conta-input label
+{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 3px;
+    text-align: left;
+    
+}
+
+.save p
+{
+    display: none;
+    color: red;
+    text-align: left;
+    padding: 0 13px;
+    margin-top: 2px;
+}
+.conta-input .inp , .btn
+{
+    margin: 10px auto 0px;
+    width: 400px;
+    padding: 15px;
+    border: none;
+    border-radius: 35px;
+
+}
+
+.conta-input  .btn
+{
+    background-color: #198754;
+    margin-top: 25px;
+    width: 430px;
+    border-bottom: 3px solid #0f633c;
+    transition:  all 0.50s;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.btn:hover
+{
+    cursor: pointer;
+    background-color: #198754ce;
+}

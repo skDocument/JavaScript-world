@@ -1,0 +1,139 @@
+body
+{
+    padding: 0px;
+    height: 0px;
+    background-color: pink;
+    font-family: 'Share Tech Mono', monospace;
+    color: #0008;
+}
+
+.containner
+{
+    max-width: 550px;
+    margin: 50px auto;
+    text-align: center;
+    min-height: 300px;
+}
+
+.containner .item
+{
+    margin-top: 25px;
+    display: block;
+}
+
+.containner .form
+{
+    width: 350px;
+    background-color: white;
+    border-radius: 15px ;
+    margin: auto;
+    padding: 25px 2px;
+}
+
+.form label
+{
+    display: block;
+    padding-bottom: 20px;
+}
+
+.form .inp1
+{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    border: silver solid 1px;
+    border-radius: 15px;
+    font-size: 25px !important;
+    
+}
+
+.inp1::placeholder
+{
+    color: #ccc !important;
+    font-size: 20px !important;
+}
+ol
+{
+    counter-reset: section;
+    padding: 0px;
+}
+li::before {
+  counter-increment: section;
+  content: counter(section) ". ";
+  position: absolute;
+}
+
+li h3
+{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.form .btn1
+{
+    margin-top: 20px;
+    width: 330px;
+    padding: 15px;
+    border-radius: 15px;
+    border: transparent;
+    background-color: green;
+    border-bottom: 2px solid rgb(2, 95, 2);
+    color: white;
+    transition: background-color ease-in .5s;
+}
+.form .btn1:hover
+{
+    cursor: pointer;
+    background-color: rgba(0, 128, 0, 0.726);
+}
+
+.result
+{
+
+    margin: auto; 
+    margin-top: 50px !important;
+    background-color: white;
+    padding: 5px;
+    width: 350px;
+    border-radius: 15px;
+    min-height: 50px;
+    
+}
+
+.result h2
+{
+    display: block;
+}
+
+.item-box 
+{
+    margin: auto;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(227, 242, 252);
+    color: black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.btn-close
+{
+    background-color: red;
+    padding: 3px;
+    border: none;
+    border-radius: 50%;
+    color: white;
+}
+
+.btn-close:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.753);
+}

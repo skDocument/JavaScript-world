@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            display: flex;
+            flex-wrap: wrap;
+            transition: all 0.5s;
+            justify-content: space-around;
+            align-content: space-between;
+            
+        }
+        #title
+        {
+            position: relative;
+            font-size: clamp(1rem, 9vw, 4rem);
+            text-align: center;
+            margin-top: 30px;
+            font-family: monospace;
+            text-shadow: rgb(255, 255, 255) 2px 2px 0px;
+        }
+
+        #conta-color
+        {
+            position: relative;
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            min-height: 150px;
+            padding: 15px;
+            justify-content: center;
+            align-items: center;
+            top : 300px;
+        }
+
+        .color
+        {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            border: 10px solid white;
+            margin-left: 15px;
+            cursor: pointer;
+            transition: all 0.5s;
+        }
+        .item1
+        {  background-color: crimson;}
+        .item2
+        {background-color: deeppink;}
+        .item3
+        {background-color: deepskyblue;}
+        .item4
+        {background-color: gold;}
+        .item5
+        {background-color: lightgray;}
+        .item6
+        {background-color: pink;}
+        .item7
+        {background-color: orange;}
+        .item8
+        {background-color: mediumturquoise;}
+        .item9
+        {background-color: lemonchiffon;}
+        .item10
+        {background-color: indigo;}
+    </style>
+    
+</head>
+<body >
+    <div id="title"></div>
+    <div id="conta-color">
+        <div data-color="crimson" class="color item1"></div>
+        <div data-color="deeppink" class="color item2"></div>
+        <div data-color="deepskyblue" class="color item3"></div>
+        <div data-color="gold" class="color item4"></div>
+        <div data-color="lightgray" class="color item5"></div>
+        <div data-color="pink" class="color item6"></div>
+        <div data-color="orange" class="color item7"></div>
+        <div data-color="mediumturquoise" class="color item8"></div>
+        <div data-color="lemonchiffon" class="color item9"></div>
+        <div data-color="indigo" class="color item10"></div>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 40px;
+    font-family: 'Harmattan', sans-serif;
+    background-color: crimson;
+}
+
+
+.form
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    min-height: 330px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 2% auto;
+    box-shadow: #555 0px 0px 20px -5px ;
+}
+
+.header
+{
+    text-align: center;
+    padding: 15px;
+    border-bottom: silver 2px solid;
+    width: 250px;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.form  label
+{
+    align-self: flex-start;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.inp
+{
+    position: relative;
+    padding: 13px;
+    width: 300px;
+    border-radius: 25px;
+    border: transparent;
+    box-shadow: silver 0px 0px 8px ;
+    margin-top: 10px;
+}
+.inp:fucus
+{
+    outline: rgba(3, 163, 212, 0.829) 2px solid;
+}
+.button
+{
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    background-color: #198754;
+    border: #198754;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.25rem !important;
+    transition: color .15s all;
+}
+
+.button:hover
+{
+    background-color: #137a4a ;
+    cursor: pointer;
+}
+
+.res
+{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+.res:empty
+{
+    display: none;
+}

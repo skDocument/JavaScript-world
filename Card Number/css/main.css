@@ -1,0 +1,46 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightskyblue;
+    color: #0008;
+    text-align: center;
+}
+
+.containner
+{
+    margin: 5% auto;
+    background-color: rgb(27, 181, 228);
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #fff9;
+}
+h2
+{
+    color: #333;
+    margin-bottom: 50px;
+}
+.inputs-conta
+{
+    width: 100%;
+    padding: 35px 0px 15px 0px; 
+}
+
+
+.inputs-conta .input
+{
+    width: 100px;
+    padding: 4px 0px;
+    text-align: center;
+    font-size: 28px;
+    margin-left: 15px;
+    border: none;
+    border-bottom: 2px solid silver;
+    background-color: transparent;
+}
+.input:focus
+{
+    outline: none;
+    border-bottom: 3px solid #000 !important;
+}
+
