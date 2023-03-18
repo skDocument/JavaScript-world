@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 3</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/persian-datepicker@1.2.0/dist/css/persian-datepicker.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+  
+</head>
+<body>
+    
+    <div class="containner">
+
+    
+        <div class="form">
+            <div class="form-title">
+                <input type="text"  class="form-title-inp" placeholder="عنوان" />
+            </div>
+
+            <div class="form-date">
+                <input type="text" class="observer-example firstdate" name="firstDate" id="firstDate" placeholder="تاریخ اول"/>
+                <input type="text" class="observer-example secondedate" name="secondeDate" id="secondeDate" placeholder="تاریخ دوم"/>
+                <p class="validateMassage"></p>
+            </div>
+
+            <div class="form-submit">
+                <button type="button">ثبت</button>
+            </div>
+        </div>
+
+        <div class="list">
+            <div class="list-title" >
+                <h3>نمایش اطلاعات</h3>
+            </div>
+
+            <ul class="list-users">                
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/persian-date@1.1.0/dist/persian-date.min.js"></script>
+    <script src="https://unpkg.com/persian-datepicker@1.2.0/dist/js/persian-datepicker.min.js"></script>
+</body>
+</html>

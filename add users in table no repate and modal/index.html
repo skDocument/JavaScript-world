@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="containner" dir="rtl">
+        <table class="table">
+            <tr class="tableHader">
+                <th>نام</th>
+                <th>نام خانوادگی</th>
+    
+            </tr>
+            <tr class="tr">
+                <td>علی</td>
+                <td>حیاتی</td>
+            </tr>
+            <tr class="tr">
+                <td>سهیل</td>
+                <td>امینی</td>
+            </tr>
+            <tr class="tr">
+                <td>امید</td>
+                <td>عطری</td>
+            </tr>
+        </table>
+    
+        <div class="buttonwrapper">
+            <h4>افزودن کاربر جدید</h4>
+            <button type="button" class="openModal">+</button>
+        </div>
+    </div>
+
+    <div class="mask">
+        <div class="modal">
+            <span class="closeModal">x</span>
+            <div class="modal-title">کاربر جدید را وارد کنید</div>
+            <div class="modal-inputs">
+                <input type="text" class="firstnameInput" placeholder="نام را وارد کنید"/>
+                <input type="text" class="lastnameInput" placeholder="نام خانوادگی را وارد کنید"/>
+                <span class="validateMassage" ></span>
+            </div>
+            <button type="button" class="addUserBtn" >اضافه کن</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

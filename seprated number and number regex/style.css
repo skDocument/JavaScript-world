@@ -1,0 +1,114 @@
+
+body{
+    background-color: #f1f1f1;
+    direction: rtl;
+}
+
+.containner{
+    margin: 5% auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form{
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 12px -4px silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form .form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.form-box input{
+    width: 80%;
+    background-color: #eeeaea;
+    border: none;
+    padding: 10px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    color : #262626;
+    
+}
+
+.form-box input:focus{
+    outline: none;
+}
+
+.form-submit{
+    width: 100%;
+    text-align: center;
+}
+.form-submit button{
+    width: 320px;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(172, 226, 90);
+    border: none;
+    font-size: larger;
+    cursor: pointer;
+    
+}
+
+
+.list{
+    width: 400px;
+    min-height: 200px;
+    background-color: rgb(172, 226, 90) ;
+    margin-top: 50px;
+    padding-bottom: 15px;
+
+}
+
+.list-title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.list-title h3{
+    color: white;
+}
+
+.list-users{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-users li{
+    box-sizing: border-box;
+    width: 90%;
+    /* height: 40px; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 10px;
+    border-bottom: #fff 1px solid;
+}
+
+li span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
